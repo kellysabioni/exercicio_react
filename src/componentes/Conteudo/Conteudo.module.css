@@ -1,9 +1,7 @@
-.geral {
-  background-color: rgb(230, 225, 225);
-}
-
 .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(230, 225, 225);
+    margin: 6px;
 }
