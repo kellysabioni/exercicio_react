@@ -9,5 +9,22 @@
   align-items: center;
   justify-content: space-around;
   flex-direction: row;
-}
 
+  
+  .notFound {
+    text-align: center;
+       
+    h3{
+      font-size: 2rem;
+      color: #333;
+      margin: 0;
+      text-align: center;
+    }  
+      a{
+        text-decoration: none;
+        color: red;
+        background-color: #fff;
+        font-weight: bold;
+      }
+  }
+}
