@@ -1,9 +1,11 @@
 .cabecalho {
+  
   background-color: black;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
+  width: 100vw;
   
   h1{
       padding: 2px;
