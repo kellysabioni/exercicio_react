@@ -1,13 +1,14 @@
+import { Link } from "react-router-dom";
 import "./Menu.module.css";
 
 export default function Menu() {
   return (
     <>
         <nav>
-            <a href=""> 1 </a>
-            <a href=""> 2 </a>
-            <a href=""> 3 </a>
-            <a href=""> 4 </a>
+          <Link to="/">Home</Link>
+          <Link to="/sobre">Sobre nós</Link>
+          <Link to="/Servicos">Serviços</Link>
+          <Link to="/contato">Contato</Link>
         </nav>
     </>
   )
