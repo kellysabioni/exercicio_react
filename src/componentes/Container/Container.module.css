@@ -1,37 +1,38 @@
+/* Estilos base (para telas pequenas, mobile-first) */
 .container {
   padding: 1rem;
   margin: 10px;
   background-color: #fff;
   border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.27) 2px 2px 8px;
-  
-    
+
   .notFound {
     text-align: center;
 
-    img{
+    img {
       width: 70%;
       height: 70%;
       margin: 20px auto;
     }
-       
-    h3{
-      font-size: 2rem;
+
+    h3 {
+      font-size: 2rem; 
       color: #333;
       margin: 0;
       text-align: center;
-    }  
-      a{
-        text-decoration: none;
-        color: red;
-        background-color: #fff;
-        font-weight: bold;
-      }
+    }
+
+    a {
+      text-decoration: none;
+      color: red;
+      background-color: #fff;
+      font-weight: bold;
+    }
   }
 
-  .contato{
+  .contato {
     h2 {
-      font-size: 2rem;
+      font-size: 2rem; 
       color: #333;
       margin-bottom: 10px;
     }
@@ -45,10 +46,70 @@
       text-decoration: none;
       color: #000;
       transition: color 0.3s ease;
-      line-height: 2; /* Adiciona espaço entre as linhas */
-      
+      line-height: 2;
+
       &:hover {
-      color: red;
+        color: red;
+      }
+    }
+  }
+}
+
+/* Telas a partir de 768px */
+@media (min-width: 768px) {
+  .container {
+    .notFound {
+      h3 {
+        font-size: 2.5rem;
+      }
+    }
+
+    .contato {
+      h2 {
+        font-size: 2.5rem;
+      }
+      p {
+        font-size: 1.2rem; 
+      }
+    }
+  }
+}
+
+/* Telas a partir de 1024px (desktops) */
+@media (min-width: 1024px) {
+  .container {
+    .notFound {
+      h3 {
+        font-size: 3rem;
+      }
+    }
+
+    .contato {
+      h2 {
+        font-size: 3rem;
+      }
+      p {
+        font-size: 1.4rem;
+      }
+    }
+  }
+}
+
+/* Telas a partir de 1440px (monitores grandes) */
+@media (min-width: 1440px) {
+  .container {
+    .notFound {
+      h3 {
+        font-size: 3.5rem;
+      }
+    }
+
+    .contato {
+      h2 {
+        font-size: 3.5rem;
+      }
+      p {
+        font-size: 1.3rem;
       }
     }
   }
