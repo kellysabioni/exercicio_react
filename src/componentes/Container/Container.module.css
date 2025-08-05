@@ -28,4 +28,28 @@
         font-weight: bold;
       }
   }
+
+  .contato{
+    h2 {
+      font-size: 2rem;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #666;
+      margin-bottom: 20px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #000;
+      transition: color 0.3s ease;
+      line-height: 2; /* Adiciona espaço entre as linhas */
+      
+      &:hover {
+      color: red;
+      }
+    }
+  }
 }
