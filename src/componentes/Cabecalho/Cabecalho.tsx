@@ -4,7 +4,7 @@ export default function Cabecalho() {
   return (
     <>
       <header className={styles.cabecalho}>
-        <h1>Exercicio React</h1>
+        <h1>Maraja Eventos</h1>
       </header>
     </>
   );
