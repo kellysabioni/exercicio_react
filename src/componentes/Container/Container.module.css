@@ -1,18 +1,19 @@
 .container {
   padding: 1rem;
-  max-width: 800px;
-  margin: auto;
+  margin: 10px;
   background-color: #fff;
   border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.27) 2px 2px 8px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-direction: row;
-
   
+    
   .notFound {
     text-align: center;
+
+    img{
+      width: 70%;
+      height: 70%;
+      margin: 20px auto;
+    }
        
     h3{
       font-size: 2rem;

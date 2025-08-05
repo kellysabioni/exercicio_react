@@ -1,29 +1,50 @@
 .cabecalho {
-  
   background-color: black;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   text-align: center;
   width: 100vw;
-  
-  h1{
-      padding: 2px;
-      color: rgb(243, 243, 243);
-      font-size: 3rem;
-      font-family: 'Rock Salt', cursive;
-      font-weight: 400;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.cabecalho h1 {
+  padding: 2px;
+  color: rgb(243, 243, 243);
+  font-size: 3rem;
+  font-family: 'Rock Salt', cursive;
+  font-weight: 400;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.cabecalho img {
+  width: 10%;
+  height: 10%;
+  margin-right: 20px;
+}
+
+.cabecalho a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Media queries para telas maiores */
+@media (min-width: 768px) {
+  .cabecalho h1 {
+    font-size: 4rem;
+  }
+  .cabecalho img {
+    width: 8%;
+    height: 8%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cabecalho h1 {
+    font-size: 5rem;
+  }
+  .cabecalho img {
+    width: 6%;
+    height: 6%;
   }
 
-  img {
-    width: 10%;
-    height: 10%;
-    margin-right: 20px;
-  }
-
-  a{
-    text-decoration: none;
-    color: white;
-  }
 }
